@@ -21,3 +21,6 @@ class ParseConfig:
     def get_host(self):
         return self.section['Host']
 
+    def get_table_url(self):
+        return self.section['Table_url']
+
